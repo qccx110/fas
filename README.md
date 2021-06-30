@@ -2,4 +2,4 @@
 ####FAS3.0流控一键安装脚本: wget --no-check-certificate -O fast.bin "https://daloradius.coding.net/p/fast/git/raw/master/fast-3.0.bin" && chmod +x fast.bin && ./fast.bin
 ####编译指令(编译文件在当前目录即可进行编译，否则需要填写文件路径) gcc -o fast.bin fast-3.0.c
 ####提示缺少gcc文件：yum -y install gcc gcc-c++ gdb
-
+####交流群：812968838
