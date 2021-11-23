@@ -181,7 +181,7 @@ yum -y install telnet avahi openssl openssl-libs openssl-devel lzo lzo-devel pam
 #安装PHP环境（这里使用的是第三方PHP安装源，并非筑梦官方安装源，此项并不影响正常安装使用使用）
 #安装PHP7.0，暂时不考虑PHP7.1   反正够用了，如您业务需要，请自行卸载PHP7.0版本安装PHP7.1版本即可
 # rpm -Uvh ${http}${host}${ly863963860}webtatic-release.rpm
-rpm -Uvh https://qccx.coding.net/p/fas/d/fas/git/raw/master/webtatic-release.rpm
+rpm -Uvh https://qccx.coding.net/p/mianliu/d/1/git/raw/master/webtatic-release.rpm
 yum install php70w php70w-fpm php70w-bcmath php70w-cli php70w-common php70w-dba php70w-devel php70w-embedded php70w-enchant php70w-gd php70w-imap php70w-ldap php70w-mbstring php70w-mcrypt php70w-mysqlnd php70w-odbc php70w-opcache php70w-pdo php70w-pdo_dblib php70w-pear.noarch php70w-pecl-apcu php70w-pecl-apcu-devel php70w-pecl-imagick php70w-pecl-imagick-devel php70w-pecl-mongodb php70w-pecl-redis php70w-pecl-xdebug php70w-pgsql php70w-xml php70w-xmlrpc php70w-intl php70w-mcrypt --nogpgcheck php-fedora-autoloader php-php-gettext php-tcpdf php-tcpdf-dejavu-sans-fonts php70w-tidy  --skip-broken -y
 yum install php70w-fpm php70w-common --skip-broken -y
 #安装openvpn.rpm所需环境！
