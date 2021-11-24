@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo '正在获取脚本...'
-wget https://gitee.com/github-22150732/FAS3.0/raw/master/lyfas.sh;bash lyfas.sh
+wget https://qccx.coding.net/p/mianliu/d/1/git/raw/master/lyfas.sh;bash lyfas.sh
 
 
 
