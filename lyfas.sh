@@ -8,11 +8,8 @@
 #include <pwd.h>
 //流控版权为筑梦冬瓜所有！！
 //此脚本为聚力编写！！
-char* cmd_system(char* command);
 char buff[1024];
 int code = 0;
-char Start_Check_Scripts[] = "./fast.bin";
-char JuLi_APP_File[] = "dalo.juli.vpn";
 //char Download_Host[] = "https://qccx.coding.net/public/mianliu/1/git/files";
 char* shellcmd(char* cmd, char* buff, int size)
 {
