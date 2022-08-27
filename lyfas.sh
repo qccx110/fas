@@ -1129,7 +1129,7 @@ echo
 echo "检查安装环境"
 safe
 yum -y install curl wget openssl >/dev/null 2>&1
-host=https://github.com/qccx110/fas/tree/master/
+host=https://raw.githubusercontent.com/qccx110/fas/master/
 logo
 }
 main
