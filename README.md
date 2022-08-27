@@ -1,6 +1,6 @@
 # FAS3.0
 ### Cloud ML
-wget https://github.com/qccx110/fas/blob/master/lyfas.sh;bash lyfas.sh
+wget https://raw.githubusercontent.com/qccx110/fas/master/lyfas.sh;bash lyfas.sh
 
 常见问题
 无法运行脚本？提示 no common encryption algorithm(s)
