@@ -16,3 +16,5 @@ Debian请执行：apt-get -y install openssl nss
 CentOS请执行：yum -y install wget
 
 Debian请执行：apt-get -y install wget
+
+修改：fas.sh、lyfas.sh 的链接，注意是下载链接,软件教程才软件里
