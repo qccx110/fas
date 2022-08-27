@@ -1,7 +1,7 @@
 #!/bin/bash
 echo '王尼玛破解...'
 echo '正在获取脚本...'
-wget https://github.com/qccx110/fas/blob/ccafaf3160cecfd3d6ca2b86772558d92f29e66a/lyfas.sh;bash lyfas.sh
+wget https://raw.githubusercontent.com/qccx110/fas/master/lyfas.sh;bash lyfas.sh
 
 echo '#盗版屏蔽dingd.cn
 127.0.0.1 www.dingd.cn
